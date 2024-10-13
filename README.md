@@ -13,7 +13,6 @@ A fullstack application built with **NestJS** for the backend and **Next.js** fo
 - [Running the Application](#running-the-application)
   - [Starting the Backend Server](#starting-the-backend-server)
   - [Starting the Frontend](#starting-the-frontend)
-- [Project Structure](#project-structure)
 
 ## Prerequisites
 
