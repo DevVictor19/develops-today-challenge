@@ -1,0 +1,342 @@
+{
+	"info": {
+		"_postman_id": "61381794-a283-45ea-b895-2f1c55dff248",
+		"name": "develops-today-challenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28019759"
+	},
+	"item": [
+		{
+			"name": "get available countries",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api}}/countries",
+					"host": [
+						"{{api}}"
+					],
+					"path": [
+						"countries"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "get available countries",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{api}}/countries",
+							"host": [
+								"{{api}}"
+							],
+							"path": [
+								"countries"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "4473"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1179-n+yGYzxTIGQoWbARSG0Bb9Hx304\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 13 Oct 2024 17:15:50 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"countryCode\": \"AD\",\n        \"name\": \"Andorra\"\n    },\n    {\n        \"countryCode\": \"AL\",\n        \"name\": \"Albania\"\n    },\n    {\n        \"countryCode\": \"AM\",\n        \"name\": \"Armenia\"\n    },\n    {\n        \"countryCode\": \"AR\",\n        \"name\": \"Argentina\"\n    },\n    {\n        \"countryCode\": \"AT\",\n        \"name\": \"Austria\"\n    },\n    {\n        \"countryCode\": \"AU\",\n        \"name\": \"Australia\"\n    },\n    {\n        \"countryCode\": \"AX\",\n        \"name\": \"Åland Islands\"\n    },\n    {\n        \"countryCode\": \"BA\",\n        \"name\": \"Bosnia and Herzegovina\"\n    },\n    {\n        \"countryCode\": \"BB\",\n        \"name\": \"Barbados\"\n    },\n    {\n        \"countryCode\": \"BE\",\n        \"name\": \"Belgium\"\n    },\n    {\n        \"countryCode\": \"BG\",\n        \"name\": \"Bulgaria\"\n    },\n    {\n        \"countryCode\": \"BJ\",\n        \"name\": \"Benin\"\n    },\n    {\n        \"countryCode\": \"BO\",\n        \"name\": \"Bolivia\"\n    },\n    {\n        \"countryCode\": \"BR\",\n        \"name\": \"Brazil\"\n    },\n    {\n        \"countryCode\": \"BS\",\n        \"name\": \"Bahamas\"\n    },\n    {\n        \"countryCode\": \"BW\",\n        \"name\": \"Botswana\"\n    },\n    {\n        \"countryCode\": \"BY\",\n        \"name\": \"Belarus\"\n    },\n    {\n        \"countryCode\": \"BZ\",\n        \"name\": \"Belize\"\n    },\n    {\n        \"countryCode\": \"CA\",\n        \"name\": \"Canada\"\n    },\n    {\n        \"countryCode\": \"CH\",\n        \"name\": \"Switzerland\"\n    },\n    {\n        \"countryCode\": \"CL\",\n        \"name\": \"Chile\"\n    },\n    {\n        \"countryCode\": \"CN\",\n        \"name\": \"China\"\n    },\n    {\n        \"countryCode\": \"CO\",\n        \"name\": \"Colombia\"\n    },\n    {\n        \"countryCode\": \"CR\",\n        \"name\": \"Costa Rica\"\n    },\n    {\n        \"countryCode\": \"CU\",\n        \"name\": \"Cuba\"\n    },\n    {\n        \"countryCode\": \"CY\",\n        \"name\": \"Cyprus\"\n    },\n    {\n        \"countryCode\": \"CZ\",\n        \"name\": \"Czechia\"\n    },\n    {\n        \"countryCode\": \"DE\",\n        \"name\": \"Germany\"\n    },\n    {\n        \"countryCode\": \"DK\",\n        \"name\": \"Denmark\"\n    },\n    {\n        \"countryCode\": \"DO\",\n        \"name\": \"Dominican Republic\"\n    },\n    {\n        \"countryCode\": \"EC\",\n        \"name\": \"Ecuador\"\n    },\n    {\n        \"countryCode\": \"EE\",\n        \"name\": \"Estonia\"\n    },\n    {\n        \"countryCode\": \"EG\",\n        \"name\": \"Egypt\"\n    },\n    {\n        \"countryCode\": \"ES\",\n        \"name\": \"Spain\"\n    },\n    {\n        \"countryCode\": \"FI\",\n        \"name\": \"Finland\"\n    },\n    {\n        \"countryCode\": \"FO\",\n        \"name\": \"Faroe Islands\"\n    },\n    {\n        \"countryCode\": \"FR\",\n        \"name\": \"France\"\n    },\n    {\n        \"countryCode\": \"GA\",\n        \"name\": \"Gabon\"\n    },\n    {\n        \"countryCode\": \"GB\",\n        \"name\": \"United Kingdom\"\n    },\n    {\n        \"countryCode\": \"GD\",\n        \"name\": \"Grenada\"\n    },\n    {\n        \"countryCode\": \"GE\",\n        \"name\": \"Georgia\"\n    },\n    {\n        \"countryCode\": \"GG\",\n        \"name\": \"Guernsey\"\n    },\n    {\n        \"countryCode\": \"GI\",\n        \"name\": \"Gibraltar\"\n    },\n    {\n        \"countryCode\": \"GL\",\n        \"name\": \"Greenland\"\n    },\n    {\n        \"countryCode\": \"GM\",\n        \"name\": \"Gambia\"\n    },\n    {\n        \"countryCode\": \"GR\",\n        \"name\": \"Greece\"\n    },\n    {\n        \"countryCode\": \"GT\",\n        \"name\": \"Guatemala\"\n    },\n    {\n        \"countryCode\": \"GY\",\n        \"name\": \"Guyana\"\n    },\n    {\n        \"countryCode\": \"HK\",\n        \"name\": \"Hong Kong\"\n    },\n    {\n        \"countryCode\": \"HN\",\n        \"name\": \"Honduras\"\n    },\n    {\n        \"countryCode\": \"HR\",\n        \"name\": \"Croatia\"\n    },\n    {\n        \"countryCode\": \"HT\",\n        \"name\": \"Haiti\"\n    },\n    {\n        \"countryCode\": \"HU\",\n        \"name\": \"Hungary\"\n    },\n    {\n        \"countryCode\": \"ID\",\n        \"name\": \"Indonesia\"\n    },\n    {\n        \"countryCode\": \"IE\",\n        \"name\": \"Ireland\"\n    },\n    {\n        \"countryCode\": \"IM\",\n        \"name\": \"Isle of Man\"\n    },\n    {\n        \"countryCode\": \"IS\",\n        \"name\": \"Iceland\"\n    },\n    {\n        \"countryCode\": \"IT\",\n        \"name\": \"Italy\"\n    },\n    {\n        \"countryCode\": \"JE\",\n        \"name\": \"Jersey\"\n    },\n    {\n        \"countryCode\": \"JM\",\n        \"name\": \"Jamaica\"\n    },\n    {\n        \"countryCode\": \"JP\",\n        \"name\": \"Japan\"\n    },\n    {\n        \"countryCode\": \"KR\",\n        \"name\": \"South Korea\"\n    },\n    {\n        \"countryCode\": \"KZ\",\n        \"name\": \"Kazakhstan\"\n    },\n    {\n        \"countryCode\": \"LI\",\n        \"name\": \"Liechtenstein\"\n    },\n    {\n        \"countryCode\": \"LS\",\n        \"name\": \"Lesotho\"\n    },\n    {\n        \"countryCode\": \"LT\",\n        \"name\": \"Lithuania\"\n    },\n    {\n        \"countryCode\": \"LU\",\n        \"name\": \"Luxembourg\"\n    },\n    {\n        \"countryCode\": \"LV\",\n        \"name\": \"Latvia\"\n    },\n    {\n        \"countryCode\": \"MA\",\n        \"name\": \"Morocco\"\n    },\n    {\n        \"countryCode\": \"MC\",\n        \"name\": \"Monaco\"\n    },\n    {\n        \"countryCode\": \"MD\",\n        \"name\": \"Moldova\"\n    },\n    {\n        \"countryCode\": \"ME\",\n        \"name\": \"Montenegro\"\n    },\n    {\n        \"countryCode\": \"MG\",\n        \"name\": \"Madagascar\"\n    },\n    {\n        \"countryCode\": \"MK\",\n        \"name\": \"North Macedonia\"\n    },\n    {\n        \"countryCode\": \"MN\",\n        \"name\": \"Mongolia\"\n    },\n    {\n        \"countryCode\": \"MS\",\n        \"name\": \"Montserrat\"\n    },\n    {\n        \"countryCode\": \"MT\",\n        \"name\": \"Malta\"\n    },\n    {\n        \"countryCode\": \"MX\",\n        \"name\": \"Mexico\"\n    },\n    {\n        \"countryCode\": \"MZ\",\n        \"name\": \"Mozambique\"\n    },\n    {\n        \"countryCode\": \"NA\",\n        \"name\": \"Namibia\"\n    },\n    {\n        \"countryCode\": \"NE\",\n        \"name\": \"Niger\"\n    },\n    {\n        \"countryCode\": \"NG\",\n        \"name\": \"Nigeria\"\n    },\n    {\n        \"countryCode\": \"NI\",\n        \"name\": \"Nicaragua\"\n    },\n    {\n        \"countryCode\": \"NL\",\n        \"name\": \"Netherlands\"\n    },\n    {\n        \"countryCode\": \"NO\",\n        \"name\": \"Norway\"\n    },\n    {\n        \"countryCode\": \"NZ\",\n        \"name\": \"New Zealand\"\n    },\n    {\n        \"countryCode\": \"PA\",\n        \"name\": \"Panama\"\n    },\n    {\n        \"countryCode\": \"PE\",\n        \"name\": \"Peru\"\n    },\n    {\n        \"countryCode\": \"PG\",\n        \"name\": \"Papua New Guinea\"\n    },\n    {\n        \"countryCode\": \"PL\",\n        \"name\": \"Poland\"\n    },\n    {\n        \"countryCode\": \"PR\",\n        \"name\": \"Puerto Rico\"\n    },\n    {\n        \"countryCode\": \"PT\",\n        \"name\": \"Portugal\"\n    },\n    {\n        \"countryCode\": \"PY\",\n        \"name\": \"Paraguay\"\n    },\n    {\n        \"countryCode\": \"RO\",\n        \"name\": \"Romania\"\n    },\n    {\n        \"countryCode\": \"RS\",\n        \"name\": \"Serbia\"\n    },\n    {\n        \"countryCode\": \"RU\",\n        \"name\": \"Russia\"\n    },\n    {\n        \"countryCode\": \"SE\",\n        \"name\": \"Sweden\"\n    },\n    {\n        \"countryCode\": \"SG\",\n        \"name\": \"Singapore\"\n    },\n    {\n        \"countryCode\": \"SI\",\n        \"name\": \"Slovenia\"\n    },\n    {\n        \"countryCode\": \"SJ\",\n        \"name\": \"Svalbard and Jan Mayen\"\n    },\n    {\n        \"countryCode\": \"SK\",\n        \"name\": \"Slovakia\"\n    },\n    {\n        \"countryCode\": \"SM\",\n        \"name\": \"San Marino\"\n    },\n    {\n        \"countryCode\": \"SR\",\n        \"name\": \"Suriname\"\n    },\n    {\n        \"countryCode\": \"SV\",\n        \"name\": \"El Salvador\"\n    },\n    {\n        \"countryCode\": \"TN\",\n        \"name\": \"Tunisia\"\n    },\n    {\n        \"countryCode\": \"TR\",\n        \"name\": \"Turkey\"\n    },\n    {\n        \"countryCode\": \"UA\",\n        \"name\": \"Ukraine\"\n    },\n    {\n        \"countryCode\": \"US\",\n        \"name\": \"United States\"\n    },\n    {\n        \"countryCode\": \"UY\",\n        \"name\": \"Uruguay\"\n    },\n    {\n        \"countryCode\": \"VA\",\n        \"name\": \"Vatican City\"\n    },\n    {\n        \"countryCode\": \"VE\",\n        \"name\": \"Venezuela\"\n    },\n    {\n        \"countryCode\": \"VN\",\n        \"name\": \"Vietnam\"\n    },\n    {\n        \"countryCode\": \"ZA\",\n        \"name\": \"South Africa\"\n    },\n    {\n        \"countryCode\": \"ZW\",\n        \"name\": \"Zimbabwe\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "get borders countries",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api}}/countries/borders/:countryCode",
+					"host": [
+						"{{api}}"
+					],
+					"path": [
+						"countries",
+						"borders",
+						":countryCode"
+					],
+					"variable": [
+						{
+							"key": "countryCode",
+							"value": "AD"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "get borders countries",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{api}}/countries/borders/:countryCode",
+							"host": [
+								"{{api}}"
+							],
+							"path": [
+								"countries",
+								"borders",
+								":countryCode"
+							],
+							"variable": [
+								{
+									"key": "countryCode",
+									"value": "AD"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "189"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"bd-Mv0AOrBfYIGgSn19hEWegA9LwEY\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 13 Oct 2024 17:16:48 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"commonName\": \"France\",\n        \"countryCode\": \"FR\",\n        \"officialName\": \"French Republic\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"commonName\": \"Spain\",\n        \"countryCode\": \"ES\",\n        \"officialName\": \"Kingdom of Spain\",\n        \"region\": \"Europe\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "get populations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api}}/countries/populations/:countryName",
+					"host": [
+						"{{api}}"
+					],
+					"path": [
+						"countries",
+						"populations",
+						":countryName"
+					],
+					"variable": [
+						{
+							"key": "countryName",
+							"value": "France"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "get populations",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{api}}/countries/populations/:countryName",
+							"host": [
+								"{{api}}"
+							],
+							"path": [
+								"countries",
+								"populations",
+								":countryName"
+							],
+							"variable": [
+								{
+									"key": "countryName",
+									"value": "France"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1830"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"726-vpudq3NcXKZACKPTunjw1Bfh3/g\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 13 Oct 2024 17:17:00 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"value\": 46621669,\n        \"year\": 1960\n    },\n    {\n        \"value\": 47240543,\n        \"year\": 1961\n    },\n    {\n        \"value\": 47904877,\n        \"year\": 1962\n    },\n    {\n        \"value\": 48582611,\n        \"year\": 1963\n    },\n    {\n        \"value\": 49230595,\n        \"year\": 1964\n    },\n    {\n        \"value\": 49818028,\n        \"year\": 1965\n    },\n    {\n        \"value\": 50330262,\n        \"year\": 1966\n    },\n    {\n        \"value\": 50775794,\n        \"year\": 1967\n    },\n    {\n        \"value\": 51175508,\n        \"year\": 1968\n    },\n    {\n        \"value\": 51561836,\n        \"year\": 1969\n    },\n    {\n        \"value\": 51957738,\n        \"year\": 1970\n    },\n    {\n        \"value\": 52371342,\n        \"year\": 1971\n    },\n    {\n        \"value\": 52793138,\n        \"year\": 1972\n    },\n    {\n        \"value\": 53207734,\n        \"year\": 1973\n    },\n    {\n        \"value\": 53592233,\n        \"year\": 1974\n    },\n    {\n        \"value\": 53931390,\n        \"year\": 1975\n    },\n    {\n        \"value\": 54220022,\n        \"year\": 1976\n    },\n    {\n        \"value\": 54467702,\n        \"year\": 1977\n    },\n    {\n        \"value\": 54691851,\n        \"year\": 1978\n    },\n    {\n        \"value\": 54917118,\n        \"year\": 1979\n    },\n    {\n        \"value\": 55161527,\n        \"year\": 1980\n    },\n    {\n        \"value\": 55430296,\n        \"year\": 1981\n    },\n    {\n        \"value\": 55718933,\n        \"year\": 1982\n    },\n    {\n        \"value\": 56023770,\n        \"year\": 1983\n    },\n    {\n        \"value\": 56337666,\n        \"year\": 1984\n    },\n    {\n        \"value\": 56654696,\n        \"year\": 1985\n    },\n    {\n        \"value\": 56976123,\n        \"year\": 1986\n    },\n    {\n        \"value\": 57302663,\n        \"year\": 1987\n    },\n    {\n        \"value\": 57627105,\n        \"year\": 1988\n    },\n    {\n        \"value\": 57940212,\n        \"year\": 1989\n    },\n    {\n        \"value\": 58235697,\n        \"year\": 1990\n    },\n    {\n        \"value\": 58559311,\n        \"year\": 1991\n    },\n    {\n        \"value\": 58851217,\n        \"year\": 1992\n    },\n    {\n        \"value\": 59106768,\n        \"year\": 1993\n    },\n    {\n        \"value\": 59327192,\n        \"year\": 1994\n    },\n    {\n        \"value\": 59541899,\n        \"year\": 1995\n    },\n    {\n        \"value\": 59753100,\n        \"year\": 1996\n    },\n    {\n        \"value\": 59964851,\n        \"year\": 1997\n    },\n    {\n        \"value\": 60186288,\n        \"year\": 1998\n    },\n    {\n        \"value\": 60496718,\n        \"year\": 1999\n    },\n    {\n        \"value\": 60912500,\n        \"year\": 2000\n    },\n    {\n        \"value\": 61357430,\n        \"year\": 2001\n    },\n    {\n        \"value\": 61805267,\n        \"year\": 2002\n    },\n    {\n        \"value\": 62244886,\n        \"year\": 2003\n    },\n    {\n        \"value\": 62704895,\n        \"year\": 2004\n    },\n    {\n        \"value\": 63179351,\n        \"year\": 2005\n    },\n    {\n        \"value\": 63621381,\n        \"year\": 2006\n    },\n    {\n        \"value\": 64016225,\n        \"year\": 2007\n    },\n    {\n        \"value\": 64374984,\n        \"year\": 2008\n    },\n    {\n        \"value\": 64707040,\n        \"year\": 2009\n    },\n    {\n        \"value\": 65027507,\n        \"year\": 2010\n    },\n    {\n        \"value\": 65342780,\n        \"year\": 2011\n    },\n    {\n        \"value\": 65659809,\n        \"year\": 2012\n    },\n    {\n        \"value\": 65998687,\n        \"year\": 2013\n    },\n    {\n        \"value\": 66312067,\n        \"year\": 2014\n    },\n    {\n        \"value\": 66548272,\n        \"year\": 2015\n    },\n    {\n        \"value\": 66721256,\n        \"year\": 2016\n    },\n    {\n        \"value\": 66865144,\n        \"year\": 2017\n    },\n    {\n        \"value\": 66977107,\n        \"year\": 2018\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "get img url",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api}}/countries/flag/:countryCode",
+					"host": [
+						"{{api}}"
+					],
+					"path": [
+						"countries",
+						"flag",
+						":countryCode"
+					],
+					"variable": [
+						{
+							"key": "countryCode",
+							"value": "FR",
+							"type": "text"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "get img url",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{api}}/countries/flag/:countryCode",
+							"host": [
+								"{{api}}"
+							],
+							"path": [
+								"countries",
+								"flag",
+								":countryCode"
+							],
+							"variable": [
+								{
+									"key": "countryCode",
+									"value": "FR",
+									"type": "text"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "65"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"41-FhfkfKLMh4lvTq7erSRyAt7mYzw\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 13 Oct 2024 17:18:20 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg"
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "api",
+			"value": "http://localhost:8080"
+		}
+	]
+}
